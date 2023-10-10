@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+.signlog{
+    width: 70rem;
+    background-color: #eeeeee;
+    padding: 3rem;
+align-items: center;
+margin: 10rem auto;
+display: flex;
+gap: 1rem;
+
+flex-direction: column;
+ 
+   
+}
+.grp{
+    display: flex;
+
+    width: 100%;
+}
+.grp input,label{
+    width: 50%;
+    padding: .8rem ;
+    font-size: 2rem;
+
+}
+.grp button[type=submit]{
+    display: inline-block;
+ width: 100%;
+ font-size: 1.4rem;
+ background: rgb(61, 156, 187);
+ border: none;
+ padding: 1rem;
+ color: #fff;
+}
+.icon-position{
+    position: relative;
+}
+.icon-position i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%,-50%);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* =-----------------homepage----------- */
+.nav-container{
+    background: rgb(61, 156, 187);
+}
+.navi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.logo{
+    font-family: 'Open Sans', sans-serif;
+   font-size: 1.5rem;
+   color: #fff;
+}
+.icon{
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1rem;
+}
+.icon a{
+    color: #eeeeee;
+}
+.tel i{ 
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tel a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-content{
+    padding: 2rem 3rem;
+    position: relative;
+  
+    width: fit-content;
+}
+.main-content h1{
+    color: rgb(29, 124, 156);
+    text-transform: uppercase;
+
+}
+.main-content h1::after{
+    content: 'news';
+    top: 38px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    left: 62%;
+    position: absolute;
+    color: #be1e1e;
+
+}
+.news{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    width: 100%;padding: 3rem;
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+    padding: 2rem 3rem;
+    background-color: #b18888;
+    width: 85%;
+   
+}
+.card img{
+    width: 100%;
+}
+.text{
+    font-size: 2rem;
+    text-align: center;
+}
+.time{
+    color: #0632f59f;
+}
+.text h4{
+    color: #be1e1e;
+}
+.view{
+    text-align: left;
+    padding: 1rem 0rem;
+    display: flex;
+    gap: 1rem;
+    color: rgb(37, 102, 155);
+}
+.read a{ 
+    text-decoration: none;
+color: blue;
+}
+.read a:hover{ 
+ text-decoration: underline;
+color: blue;
+}
+.single-card{
+    padding: 3rem;
+}
+.card h5{
+    font-size: 2rem;
+}
+.liked{
+    display: flex;
+    gap: 1rem;
+
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.likes{
+    font-size: 1.4rem;
+    display: flex;
+    padding: .5rem;
+    gap: .3rem;
+    color: rgb(255, 255, 255);
+}
+
+.likes::after{
+font-size: 1rem;
+font-weight: bold;
+}
+.unlikes{
+    font-size: 1.4rem;
+    display: flex;
+    gap: .3rem;
+    color: rgb(255, 255, 255);
+  
+}
+.unlikes::after{
+font-size: 1.4rem;
+
+}
+.desc{
+    font-size: 2rem;
+}
